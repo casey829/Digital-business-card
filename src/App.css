@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background-color: #1C1C1C;
+    font-family: nunito, sans-serif;
+}
+/*app js style*/
+.app--container{
+    margin:20px auto;
+    padding: 20px 10px;
+    width: 517px;
+    height: 1000px;
+    background-color:#1A1B21;
+}
+
+.app--container--two{
+ margin: 20px auto;
+  background-color: #23252C;
+  width: 317px;
+  border-radius: 10px;
+}
+
+/*content js style */
+.main--header{
+    font-size: 33px;
+    text-align: center;
+    margin: 15px 0px 10px 0px ;
+}
+.main--h4--one{
+   text-align: center;
+   font-weight: 400;
+   color: #F3BF99;
+   font-size: 16px;
+   margin-top: 0px;
+   margin-bottom: 5px;
+}
+.main--span--two{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color:white
+}
+
+.btn--class{
+    display: flex;
+    padding: 20px 10px;
+    justify-content: space-between;
+} 
+
+.main--button{
+    width:115px;
+    height:20px;
+    border-radius:4px;
+    display: flex;
+    border:none;
+    outline: none;
+    align-items: center;
+}
+
+.btn--email{
+  background-color: white;
+  color: black;
+  display: flex;
+  margin-left: 22px;
+}
+.btn--linkedin{
+   background-color: blue;
+   color: white;
+   display: flex;
+   margin-right: 22px;
+}
+.linkedin{
+   height: 20px;
+   margin:3px;
+}
+.email{
+   height: 20px;
+   margin:3px;
+}
+.main--about--interest{
+    width: 247px;
+    height:201px;
+    color:white;
+    padding:10px;
+    padding-bottom: 4px;
+    margin: 5px auto;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 1.08em;
+}
+
+.main--about--interest > p{
+    font-size: 12px;
+   
+}
+.main--about--interest > h3 {
+    font-size: 22px;
+    margin-bottom: 3px;
+    margin-top: 4px;
+}
+
+/*Footer */
+.foot--container {
+    width: 317px;
+    height:64px;
+    background-color:#161619;;
+    padding: 3px;
+    align-items: center;
+    vertical-align: middle;
+}
+.foot--image{
+    height: 30px;
+    filter: brightness(2);
+    margin: 10px;
+    
+}
+.foot--items{
+    margin: 2px 55px;
+
+}
